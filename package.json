@@ -1,0 +1,11 @@
+{
+  "name": "ros-web-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shiroikoi <48037748+Shiroikoi@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
