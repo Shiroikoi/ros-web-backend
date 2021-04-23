@@ -1,4 +1,4 @@
-sudo apt install libcairo2-dev libjpeg-turbo8-dev libpng12-dev libtool-bin libossp-uuid-dev libpango1.0-dev libssh2-1-dev libvncserver-dev libwebsockets-dev libssl-dev build-essential autoconf
+sudo apt install libcairo2-dev libjpeg-turbo8-dev libpng-dev libtool-bin libossp-uuid-dev libpango1.0-dev libssh2-1-dev libvncserver-dev libwebsockets-dev libssl-dev build-essential autoconf
 
 sudo add-apt-repository ppa:remmina-ppa-team/freerdp-daily
 sudo apt-get update
@@ -43,15 +43,15 @@ sudo nano /etc/guacamole/user-mapping.xml
             <protocol>ssh</protocol>
             <param name="hostname">localhost</param>
             <param name="port">22</param>
-            <param name="username"></param>
+            <param name="username">menmen</param>
         </connection>
         <connection name="vnc">
-            <protocol>rdp</protocol>
+            <protocol>vnc</protocol>
             <param name="hostname">localhost</param>
             <param name="port">5900</param>
         </connection>
         <connection name="vnc2">
-            <protocol>rdp</protocol>
+            <protocol>vnc</protocol>
             <param name="hostname">localhost</param>
             <param name="port">5901</param>
         </connection>
